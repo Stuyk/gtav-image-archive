@@ -30,7 +30,7 @@ for (let folder of folders) {
     const fileName = fileWithExt.split(".")[0];
 
     content += `${fileName}<br />\n`;
-    content += `<img src="/${folder}/${fileWithExt}"/><br />\n`;
+    content += `<img src="./${folder}/${fileWithExt}"/><br />\n`;
   }
 
   const data = HTMLBoiler.replace("<!-- Replace Me -->", content);
