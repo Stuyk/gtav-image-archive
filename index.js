@@ -29,8 +29,10 @@ for (let folder of folders) {
     const fileWithExt = fileSplit[fileSplit.length - 1];
     const fileName = fileWithExt.split(".")[0];
 
+    const url = `https://cdn.jsdelivr.net/gh/Stuyk/gtav-image-archive/${folder}/${fileWithExt}`;
+
     content += `${fileName}<br />\n`;
-    content += `<img src="./${folder}/${fileWithExt}"/><br />\n`;
+    content += `<img src="${url}"/><br />\n`;
   }
 
   const data = HTMLBoiler.replace("<!-- Replace Me -->", content);
