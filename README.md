@@ -20,6 +20,14 @@ dlc_name_component_drawable
 https://cdn.jsdelivr.net/gh/Stuyk/gtav-image-archive/clothes/mp_m_battle_11_4.webp
 ```
 
+## Heads Example
+
+0 - 45
+
+```
+https://cdn.jsdelivr.net/gh/Stuyk/gtav-image-archive/heads/0.webp
+```
+
 ## Vehicle Example
 
 ```

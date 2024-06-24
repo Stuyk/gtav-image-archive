@@ -1,7 +1,7 @@
 const glob = require("fast-glob");
 const fs = require("fs");
 
-const folders = ["clothes", "vehicles", "weapons"];
+const folders = ["clothes", "heads", "vehicles", "weapons"];
 
 const HTMLBoiler = `
 <html>
